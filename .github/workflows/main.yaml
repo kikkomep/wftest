@@ -15,4 +15,3 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
-        run: exit 0
