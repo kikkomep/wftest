@@ -1,0 +1,17 @@
+name: Workflow Test 2
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches:
+      - "**"
+    tags:
+      - "*.*.*"
+
+jobs:
+  wftest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: exit -1
