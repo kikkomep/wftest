@@ -8,6 +8,7 @@ on:
       - "**"
     tags:
       - "*.*.*"
+
 jobs:
   wf-test:
     runs-on: ubuntu-latest
