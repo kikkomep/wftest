@@ -123,7 +123,7 @@
             "@id": "#test1_1",
             "@type": "TestInstance",
             "name": "test1_1",
-            "resource": "repos/kikkomep/wftest/actions/workflows/success.yml",
+            "resource": "repos/kikkomep/wftest/actions/workflows/success.yaml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
             },
