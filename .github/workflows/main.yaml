@@ -10,7 +10,7 @@ on:
       - "*.*.*"
 
 jobs:
-  wf-test:
+  wftest:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
