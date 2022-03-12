@@ -33,7 +33,7 @@
                     "@id": "fragment-based-docking-scoring-tests.yml"
                 }
             ],
-            "isBasedOn": "https://github.com/iwc-workflows/fragment-based-docking-scoring",
+            "isBasedOn": "https://github.com/kikkomep/wftest",
             "license": "MIT",
             "mainEntity": {
                 "@id": "fragment-based-docking-scoring.ga"
